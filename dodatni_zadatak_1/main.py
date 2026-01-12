@@ -1,7 +1,6 @@
 import cv2
 import numpy as np
 
-
 def uklanjanje_objekta_sa_ivica(putanja_do_slike):
 
     # ucitavamo sliku u gray-scale
@@ -65,3 +64,4 @@ uklanjanje_objekta_sa_ivica('slika1.jpg')
 uklanjanje_objekta_sa_ivica('slika2.jpg')
 uklanjanje_objekta_sa_ivica('test_random_1.png')
 uklanjanje_objekta_sa_ivica('test_random_2.png')
+
